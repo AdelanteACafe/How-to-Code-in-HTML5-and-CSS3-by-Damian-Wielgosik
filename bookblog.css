@@ -1,0 +1,43 @@
+
+
+ article header p {
+	background-color: #ede1e4;/*white*/
+	background-color: #9b2043; /*red*/
+  }
+
+article header h1 {
+	color: green;
+   }
+
+article figure {
+	width: 600px;
+	border: 6px solid orange;
+	padding: 4px;
+}
+
+article figure img {
+	width: 100%;
+	/*the above code wraps the border around the image,
+	without it the border is a good bit larger than the pic*/
+	}
+
+article {
+	width: 780px;
+/*}  reduces the width of the text within the article (all of it really)*/
+}
+
+body {
+	font-family: verdana, Times, Tahoma;
+	/*supposed to be good habit to use several, so if one messes up, youve got a backup....or so they say. */
+	/*Note that "verdana" was the original option*/
+}
+
+/*The following is good to know, unfortunately i didnt know this before,
+ he sd it until the end of chapter
+and Im not going to go back and rearrange it.  So um....yeah the folloing
+ is good knowledge and stuff but.....no.
+"In general, it's good practice to start your code with the most general
+ selectors and move into more
+complex ones. I started from body, followed by article, and so on, going
+ from top to bottom.
+The higher the detail, the lower it sits in the list.""*/

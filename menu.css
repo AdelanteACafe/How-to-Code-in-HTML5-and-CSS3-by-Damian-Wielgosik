@@ -1,0 +1,88 @@
+
+
+/*CHAPTER 6 CODE-------------------------------------------------------------------------------------*/
+
+
+
+/*nav ul {
+	background-color: PaleVioletRed; cyan
+	list-style: none;
+	padding: 0;
+	width: 200px;
+	border: 1px solid MediumVioletRed;
+		}
+
+nav ul li {
+border-bottom: 1px solid MediumVioletRed;
+padding: 5px;
+		}
+
+
+nav ul li:last-child that is, the last "li" on the list
+{
+	border-bottom: 0;
+}  The double-border has disappeared, all because we looked at the "last-child" property in <ul> of <nav>,
+ and then we've chosen the last <li> in it and turned off the bottom border. 
+ The pseudo-selector is "last-child" which indicates the last item in the list. 
+
+nav ul li a {
+	color: white;
+/*} changed the color of the links to white*/
+/*text-decoration: none;*/
+/*} removes the underline from the the 4 links (that is, the links were underlined before this line of code)*/
+}
+/*nav ul li a:hover {*/
+	/*text-decoration: underline;*/
+}
+  /*this causes a link to underline or otherwise be hightlighted when you hover the mouse over it*/
+
+
+
+/*end of chapter 6 comments
+The newly emerged pseudo-selectors (last-child and hover) will be useful in the future. 
+
+By the way, in this chapter you have learned how to use links and put them into HTML documents. 
+At this point, we have used only addresses pointing to the local files (like training.html) saved on your 
+computer, however you can also use links referring to external websites living on the web like this: 
+
+<a href="http://twitter.com/varjs">My Twitter</a> 
+
+The above code in the browser will be displayed as My Twitter. Note that the address contains
+ "http://" at the very begininng. It's a rule to learn that every link you used in a HTML document that 
+ points to another website, must be prefixed by "http://". Otherwise, your links won't redirect users to 
+ the places they should*/
+/*----------------------------------------------------------------------------------*/
+
+/*The following code is from chapter 7, where tag name are replaced with class
+ names, which give more flexibility in writing code. So if this code is active, the previous
+   code should becommemted out and vise versa.
+   BOTH THIS CODE AND PREVIOUS CHAPTER CODE SHOULD NOT BE ACTIVE AT SAME TIME	*/
+
+
+.site-nav {
+	background-color: palevioletred;
+	list-style: none;
+	padding: 0;
+	width: 200;
+	border: 1px solid mediumvioletred;
+}
+
+.site-nav .site-nav-item {
+	border-bottom: 1px solid mediumvioletred;
+	padding: 5px;
+}
+
+.site-nav .site-nav-item:last-child{
+	border-bottom: 0;
+}
+
+
+
+.site-nav .site-nav-item a {
+	color: orange;
+	text-decoration: none;
+		}
+
+.site-nav .site-nav-item a:hover {
+	text-decoration: underline;
+}

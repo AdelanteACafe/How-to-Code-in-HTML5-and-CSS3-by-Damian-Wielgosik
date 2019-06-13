@@ -1,0 +1,142 @@
+/*MENU CSS*CODE------------------------------------------------------------*/
+
+
+
+
+.site-nav {
+	background-color: palevioletred;
+	list-style: none;
+	padding: 0;
+	width: 200;
+	border: 1px solid mediumvioletred;
+}
+
+.site-nav .site-nav-item {
+	border-bottom: 1px solid mediumvioletred;
+	padding: 5px;
+}
+
+.site-nav .site-nav-item:last-child{
+	border-bottom: 0;
+}
+
+
+
+.site-nav .site-nav-item a {
+	color: orange;
+	text-decoration: none;
+}
+
+.site-nav .site-nav-item a:hover {
+	text-decoration: underline;
+}
+
+
+
+BOOK BLOG CODE----------------------------------------------------------
+
+
+
+ article header p {
+	background-color: #ede1e4; /*white*/
+	background-color: #9b2043; /*red*/
+  }
+
+article header h1 {
+	color: green;
+   }
+
+article figure {
+	width: 600px;
+	border: 6px solid orange;
+	padding: 4px;
+}
+
+article figure img {
+	width: 100%;
+/*	the above code wraps the border around the image,
+	without it the border is a good bit larger than the pic*/
+	}
+
+article {
+	width: 780px;
+  /*reduces the width of the text within the article (all of it really)*/
+}
+
+body {
+	font-family: verdana, Times, Tahoma;
+	/*supposed to be good habit to use several, so if one messes up, youve got a 
+	backup....or so they say. 
+	/*Note that "verdana" was the original option*/
+}
+
+/*The following is good to know, unfortunately i didnt know this before,
+ he didnt say it until the end of chapter
+and Im not going to go back and rearrange it.  So um....yeah the folloing
+ is good knowledge and stuff but.....no.
+"In general, it's good practice to start your code with the most general
+ selectors and move into more
+complex ones. I started from body, followed by article, and so on, going
+ from top to bottom.
+The higher the detail, the lower it sits in the list.""*/
+
+
+
+/*FORMS CSS CODE-----------------------------------------------------------*/
+
+
+
+input [type="text"],
+input [type="email"]
+ {
+	border: 6px orange;
+}
+
+
+
+/*below is style code from FINAL chapter----------------------------------*/
+
+.main-container {
+	max-width: 960px;
+	margin: auto;
+	/*"margin" centers the text, distributing the the space evenly between the two margins */
+	/*and take up ALL free space*/
+}
+
+.site-menu {
+	background-color: LightGoldenRodYellow;
+}
+
+
+
+/*following groups left and right columns juntos with a comma*/
+.site-menu,
+.sidebar  {
+width:20%;
+}
+
+
+/*middle column*/
+.main-content {
+	width: 60%;
+	background-color: lightpink;
+}
+
+.sidebar {
+	background-color: LightSteelBlue;
+}
+
+/*this lines the columns up next to one another*/
+/*Sigh this project is done except for: the div below (the final "div" in the HTML file), the CSS command to
+ float left (final piece of code in CSS file) (putting them in a straight line instead of vertical like they are now) isn't
+  working, just cant figure out why.As of Sept 18 2018 I will let this rest and return to Freecodecamp work*/
+.site-menu,
+.main-content,
+.sidebar {
+	float: left;
+}
+
+
+
+
+

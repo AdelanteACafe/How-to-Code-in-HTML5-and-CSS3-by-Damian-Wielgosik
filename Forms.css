@@ -1,0 +1,23 @@
+
+
+
+input [type="text"],
+input [type="email"] {
+	border: 6px orange;
+}
+
+
+
+
+
+/*the following is a longer wordier way to say same thing*/
+
+/*input [type="text"] {
+	border: 1px solid blue;
+}
+
+input [type="email"]  {
+	border: 1px solid blue;
+
+}*/
+
